@@ -1,23 +1,28 @@
-support_for_blank;Soporte para $text$
-uh_support_for_blank;Soporte para $text$
+ui_element_name;Nombre: ?Y$x$?!
+ui_element_position;Posicion: X = ?Y$x$?! Y = ?Y$y$?!
+ui_element_size;Tamaño: X = ?Y$x$?! Y = ?Y$y$?!
+PROVINCEVIEW_GOODSINCOME;Vendidos ?Y$x$?W ?Y$GOODS$?W Para ?Y$VALUE$?W Ayer
+support_for_blank;Apoyo para $text$
+uh_support_for_blank;Apoyo De la camara Alta para $text$
 up_to;hasta 
-scaled_support; proporcional al soporte para $text$
+scaled_support; proporcional al apoyo para $text$
 scaled_unemployment; proporcional al desempleo
-stockpile_of;En la reserva nacional de
+stockpile_of;$text$ En la reserva nacional
 create_general;Se crea un nuevo general
-create_admiral;Se crea un nuevo admiral
-add_war_goal;La meta de guerra $text$ se a�ade contra $nation$
+create_admiral;Se crea un nuevo almirante
+add_war_goal;El objetivo de guerra $text$ se añade contra $nation$
 blank_loyalty;Lealtad a $text$
 in_blank;En $text$
+currently;(actualmente: ?Y$x$?!)
 no_effect;Sin efecto
 move_capital_to;Mover la capital a
-add_x_core;A�adir nucleo $adj$
-add_core_to;A�adir nucleo a
+add_x_core;Añadir nucleo $adj$
+add_core_to;Añadir nucleo a
 remove_x_core;Remover nucleo $adj$
 remove_core_from;Remover nucleo de
 change_name_to;Cambiar nombre a $text$
 change_terrain_to;Cambia el terreno a $text$
-change_rgo_production_to;Cambiar produccion de RGO a $text$
+change_rgo_production_to;Cambiar produccion del RGO a $text$
 make_accepted_culture;$text$ se vuelve una cultura aceptada
 primary_culture_changes_to;La cultura primaria cambia a $text$
 union_culture_accepted;Todas las culturas en el grupo primario de culturas de la nacion se vuelven aceptadas
@@ -26,19 +31,23 @@ increase_national_variable_by;Incrementa la variable nacional $text$ por $value$
 decrease_national_variable_by;Decrementa la variable nacional $text$ por $value$
 life_rating;Calidad de vida
 make_national_religion;$text$ se vuelve la religion nacional
-make_slave_state;Se convierte en estado con esclavitud
-make_slave_pop;Se convierte en esclavo
-research_points;Puntos de tecnologia
-change_tech_school;Escuela tecnologica se cambia a $text$
+giving_modifier;Esto da el siguiente modificador:
+make_province_religion;La poblacion de la provincia se convierte a ?Y$text$?W
+make_pop_religion;Se convierte a ?Y$text$?W
+make_pop_culture;Se convierte a ?Y$text$?W
+make_slave_state;Se convierte en ?Yslave state?W
+make_slave_pop;Se convierte en ?Yslave?W
+research_points;Puntos de investigacion
+change_tech_school;Escuela tecnologica cambia a $text$
 change_government_to;El gobierno cambia a $text$
-add_to_treasury;A�adido al tesoro
-war_exhaustion;Exhaustion de guerra
+add_to_treasury;Añadido al tesoro
+war_exhaustion;Cansancio belico
 become_blank;Se convierte en $text$
 player_control_change;El control del jugador se cambia a $text$
 set_national_flag;$text$ se establece para esta nacion
 remove_national_flag;$text$ se desestablece para esta nacion
 infamy;Infamia
-change_province_owner;Cambia el due�o de la provincia a $text$
+change_province_owner;Cambia el dueño de la provincia a $text$
 annex_effect;Anexa $text$
 annexed_by_effect;Es anexado por $text$
 core_return;Los nucleos de $adj$ son devueltos a $text$
@@ -47,54 +56,56 @@ change_province_controller;Cambiar el controlador de la provincia a $text$
 change_state_controller;Cambiar el controlador del estado a $text$
 pop_savings;Ahorros del pop
 leadership_points;Puntos de liderazgo
-release_as_vassal;Liberar a $text$ como un subyugado
-end_alliance;Terminar alianza con $text$
-end_war_with;Terminar guerra con $text$
+release_as_vassal;Liberar a $text$ como un titere
+end_alliance;Finalizar alianza con $text$
+end_war_with;Finalizar guerra con $text$
 enable_ideology;Habilitar ideologia ?Y$text$?!
 enable_technology;Dar tecnologia ?Y$text$?!
 enable_invention;Dar invencion ?Y$text$?!
-change_ruling_party;Cambiar el partido electo a $text$
+change_ruling_party;Cambia el partido gobernante a $text$
 remove_prov_mod;Quitar el modificador provincial $text$
 remove_nat_mod;Quitar el modificador nacional $text$
-make_alliance;Entrar en una alianza con $text$
+make_alliance;Hacer una alianza con $text$
 becomes_independent;$text$ se vuelve una nacion independiente
 release_as_independent;Liberar $text$ como una nacion independiente
 set_global_flag;Establecer $text$ globalmente
 remove_global_flag;Desestablecer $text$ globalmente
 change_national_value;Cambiar valor nacional a $text$
 become_civ;Se convierte en una nacion civilizada
-become_unciv;Se convierte en una nacion descivilizada
+become_unciv;Se convierte en una nacion incivilizada
 free_slave_state;Se convierte en un estado libre
 free_slave_pop;Se libera de la esclavitud
 hold_election;Se hacen elecciones
 issue_change;$issue$ se cambia a $text$
-add_relative_income;Multiplicado por el ultimo ingreso y se a�ade al tesoro
-make_neutral;Todas las alianzas terminadas y todos los subyugados son liberados
-pop_size;Tama�o del pop
+add_relative_income;Ultimos ingresos Añadidos al tesoro
+make_neutral;Todas las alianzas terminadas y todos los titeres son liberados
+pop_project;projecto del pop
+state_project;construccion estatal
+pop_size;Tamaño del pop
 move_pop_to;Mover pop a $text$
 change_pop_type;Cambiar tipo de pop a $text$
-years_of_research;A�os de investigacion
+years_of_research;Años de investigacion
 remove_mil_reforms;Quitar $value$ reformas militares
 remove_econ_reforms;Quitar $value$ reformas economicas
-add_crime;A�adir crimen $text$
+add_crime;Añadir crimen $text$
 remove_crime;Quitar crimen activo
-perform_nationalization;Hacer la nacionalizacion
-build_factory_in_capital;Construir $text$ en el estado capital
+perform_nationalization;Nacionalizar
+build_factory_in_capital;Construir $text$ en la capital del estado
 enable_great_wars;La gran guerra se activa
 enable_world_wars;Las guerras mundiales se activan
 disable_great_wars;La gran guerra se desactiva
 disable_world_wars;Las guerras mundiales se desactivan
-assimilate_pop;Cambiar cultura a $text$
-assimilate_province;Cambiar la cultura de todos los pops a $text$
-owner_primary_culture;Su due�o de la cultura primaria
-literacy;Alfabetismo
-add_crisis_interest;Se interesa en la crisis actual
+assimilate_pop;Assimilar cultura a $text$
+assimilate_province;Assimilar la cultura de todos los pops a $text$
+owner_primary_culture;Su dueño de la cultura primaria
+literacy;Alfabetizacion
+add_crisis_interest;Mostrar interes en la crisis actual
 crisis_temperature_plain;Temperatura de la crisis
 militancy;Militancia
 consciousness;Conciencia
-rgo_size;Tama�o del RGO
+rgo_size;Tamaño del RGO
 trigger_every_revolt;Desencadena una revuelta de todas las facciones rebeldes
-call_allies;Llama a sus aliados a sus guerras actuales
+call_allies;Llamar a tus aliados a tus guerras en curso
 truce_with;Tregua con $text$ hasta ?Y$y$?!
 diplomatic_influence_with;Influencia diplomatica con $text$
 relations_with;Relacion con $text$
@@ -110,17 +121,17 @@ set_national_variable_to;Igualar la variable nacional $text$ a $value$
 event_fires;Sucede el evento $text$
 event_fires_in_days;Sucede el evento $text$
 railroad_in_capital;?G+1?! ferrocarril en la capital
-railroad_in_capital_state;?G+1?! ferrocarril en el estado capital
+railroad_in_capital_state;?G+1?! ferrocarril en la capital del estado
 fort_in_capital;?G+1?! fortaleza en la capital
-fort_in_capital_state;?G+1?! fortaleza en el estado capital
+fort_in_capital_state;?G+1?! fortaleza en la capital del estado
 fort_in_capital;?G+1?! fortaleza en la capital
-fort_in_capital_state;?G+1?! fortaleza en el estado capital
+fort_in_capital_state;?G+1?! fortaleza en la capital del estado
 university_in_capital;?G+1?! universidad en la capital
-university_in_capital_state;?G+1?! universidad en el estado capital
+university_in_capital_state;?G+1?! universidad en la capital del estado
 bank_in_capital;?G+1?! banco en la capital
-bank_in_capital_state;?G+1?! banco en el estado capital
+bank_in_capital_state;?G+1?! banco en la capital del estado
 railroad_level;nivel del ferrocarril
-fort_level;nivel de la barraca
+fort_level;nivel de la fortaleza
 naval_base_level;nivel de la base naval
 university_base_level;nivel de la universidad
 bank_base_level;nivel del banco
@@ -128,13 +139,13 @@ apply;Aplicar
 ok;OK
 close;Cerrar
 delete;Borrar
-new;Nueva
-reset;Reset
+new;Nuevo
+reset;Resetear
 every;Cada
 ready;Listo
-any;Cualqier
+any;Cualqiera
 none;Nada
-random;Al albur de
+random;Aleatorio
 neighboring_province;provincia vecina
 where;donde: 
 neighboring_nation;nacion vecina
@@ -142,10 +153,10 @@ nation;nacion
 continent;continente
 same_continent;En el mismo continente que
 empty_neighboring_province;Provincia vecina vacia
-poor_strata_pop;Pop de estrato pobre
-middle_strata_pop;Pop de estrata media
-rich_strata_pop;Pop de estrata rica
-pop;Pop
+poor_strata_pop;Pop de clase Baja
+middle_strata_pop;Pop de clase Media
+rich_strata_pop;Pop de clase Alta
+pop;Poblacion
 owned_province;provincia perteneciente a
 singular_nation;esa nacion
 singular_state;ese estado
@@ -156,7 +167,7 @@ this_nation;esta nacion
 this_state;este estado
 this_province;esta provincia
 this_pop;este pop
-from_nation;de nacion
+from_nation;de la nacion
 from_state;del estado
 from_province;de la provincia
 from_pop;del pop
@@ -167,12 +178,12 @@ cultural_union_nation;La nacion de la union cultral para su cultura primaria
 core_of;nucleo de
 state_of;estado de
 chance_of;probablidad de:
-owner_of;due�o de
+owner_of;dueño de
 controller_of;controlador de
 location_of_pop;ubicacion de ese pop
 nation_of_pop;nacion que contiene ese pop
 capital_of;Capital de
-containing_state;estado conteniendo
+containing_state;estado contiene
 adjacent_sea;zona de mar adyacente
 cultural_union_of;union cultural de
 overlord_of;maestro de
@@ -213,7 +224,7 @@ core_in;nucleo en
 colonial_pop;localizado en una provincia colonial
 substate_of;subestado de
 nation_in_sphere;nacion en esfera de
-year;a�o
+year;año
 month;mes
 a_port;un puerto
 national_rank;ranking nacional
