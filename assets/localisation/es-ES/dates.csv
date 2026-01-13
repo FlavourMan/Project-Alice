@@ -1,8 +1,8 @@
 date_string_ymd;$day$ de $month$, $year$
-date_is_leap;
-date_is_not_leap;
-topbar_date_season_nh;
-topbar_date_season_sh;
+date_is_leap;En Un Año ?Yleap?!
+date_is_not_leap;En Un Año ?Ynormal?!
+topbar_date_season_nh;Estación Del Hemisferio Norte: ?Y$x$?!
+topbar_date_season_sh;Estacion Del Hemisferio Sur: ?Y$x$?!
 spring;Primavera
 summer;Verano
 autumn;Otono
